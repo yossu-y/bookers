@@ -1,0 +1,113 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+/*show*/
+
+h1 {
+  margin: 15px 33px 10px 0;
+  font-size: 20px;
+}
+h2 {
+  margin: 10px 0;
+}
+
+h4 {
+  margin: 10px auto;
+}
+
+.reaction {
+  color: green;
+  font-size: 15px;
+}
+
+.noticefications p {
+  color: green;
+}
+
+/*edit*/
+
+p {
+  margin: 15px;
+}
+
+h6 {
+  margin-top: 13px ;
+}
+
+
+.link {
+  padding-top: 0;
+  font-size: 13px;
+}
+
+p {
+  margin: 33px;
+}
+
+a {
+	color: #000;
+}
+
+label {
+  margin-top: 10px;
+}
+
+.form {
+  margin-bottom: 15px;
+}
+
+/*index*/
+
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: grey;
+}
+
+th {
+  padding-bottom: 5px;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+
+}
+td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px
+}
+
